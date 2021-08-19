@@ -70,5 +70,4 @@ spec:
       volumes:
       - name: config
         configMap:
-          defaultMode: 0640
           name: logstash-config
